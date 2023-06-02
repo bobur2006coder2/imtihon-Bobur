@@ -36,6 +36,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* flex-wrap: wrap; */
 }
 
 .two-sp-nav {
@@ -45,6 +46,7 @@ nav {
   text-align: left;
   color: #e2e2e2;
 }
+
 
 .circule-colort {
   padding: 2px;
@@ -160,10 +162,19 @@ input,
 .imp{
     width: 100%;
 }
-
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
 article{
     background-image: url('./img/fottop.png');
 }
 footer{
     background-color: #000;
+}
+
+@media (max-width:576px) {
+    .btn_de{
+        width: 80%;
+    }
 }
